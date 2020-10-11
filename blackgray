@@ -1,0 +1,104 @@
+! Europa by plb, modified by karc
+
+toolbar:                        Flat Solid
+toolbar.shaped:                 false
+toolbar.height:                 16
+toolbar.clock:                  Flat Solid
+toolbar.clock.color:            #202020
+toolbar.clock.textColor:        #ffffff
+toolbar.clock.justify:          Center
+toolbar.alpha:                  200
+toolbar.color:                  #000000
+toolbar.label:                  ParentRelative
+toolbar.windowLabel:            ParentRelative
+toolbar.button:                 ParentRelative
+toolbar.button.pressed:         Flat Solid
+toolbar.button.pressed.color:   #000000
+toolbar.button*picColor:        #e0e0e0
+toolbar.textColor:              #ffffff
+toolbar.justify:                center
+
+window.title.focus:             Flat Solid
+window.title.focus.color:       #000000
+window.title.unfocus:           Flat Solid
+window.title.unfocus.color:     #202020
+window.label.focus:             ParentRelative
+window.label.focus.textColor:   #e0e0e0
+window.label.unfocus:           ParentRelative
+window.label.unfocus.textColor: #808080
+window.button.focus:            ParentRelative
+window.button.focus.picColor:   #e0e0e0
+window.button.unfocus:          ParentRelative
+window.button.unfocus.picColor: #e0e0e0
+window.button.pressed:          ParentRelative
+window.handle.focus:            Flat Solid
+window.handle.focus.color:      #000000
+window.handle.unfocus:          Flat Solid
+window.handle.unfocus.color:    #000000
+window.grip.focus:              Flat Solid
+window.grip.unfocus:            Flat Solid
+window.grip.focus.color:        #e0e0e0
+window.grip.unfocus.color:      #e0e0e0
+window.justify:                 center
+window.bevelWidth:              0
+window.title.height:            16
+window.handleWidth:             1
+window.alpha:                   200
+window.close.pixmap:                            close.xpm
+window.close.pressed.pixmap:                    close.xpm
+window.close.unfocus.pixmap:                    close.xpm
+window.iconify.pixmap:                          icon.xpm
+window.iconify.pressed.pixmap:                  icon.xpm
+window.iconify.unfocus.pixmap:                  icon.xpm
+window.maximize.pixmap:                         max.xpm
+window.maximize.pressed.pixmap:                 max.xpm
+window.maximize.unfocus.pixmap:                 max.xpm
+window.shade.pixmap:                            shade.xpm
+window.shade.pressed.pixmap:                    shade.xpm
+window.shade.unfocus.pixmap:                    shade.xpm
+window.shade.focus.pixmap:                      shade.xpm
+window.menuicon.pixmap:                         menuicon.xpm
+window.menuicon.unfocus.pixmap:                 menuicon.xpm
+window.menuicon.focus.pixmap:                   menuicon.xpm
+window.menuicon.pressed.pixmap:                 menuicon.xpm
+window.stick.pixmap:                            stick.xpm
+window.stick.unfocus.pixmap:                    stick.xpm
+window.stick.focus.pixmap:                      stick.xpm
+window.stick.pressed.pixmap:                    stick.xpm
+window.justify: left
+
+menu.title:                     raised gradient vertical
+menu.title.justify:		center
+menu.title.color:       	#555555
+menu.title.colorTo:   		#0f0f0f
+menu.title.textColor:           #ffffff
+
+menu.frame:                     raised gradient vertical
+menu.frame.color:               #000000
+menu.frame.colorTo:             #000000
+menu.frame.textColor:           #ffffff
+menu.submenu.pixmap:            bullet.xpm
+menu.hilite:                    sunken gradient vertical
+menu.hilite.color:       	#555555
+menu.hilite.colorTo:   		#0f0f0f
+menu.hilite.textColor:          #ffcb48
+menu.bullet:                    Empty
+menu.bullet.position:           Right
+menu.alpha:                     100
+menu.borderWidth:               1
+menu.borderColor:               #000000
+#menu.roundCorners:              BottomRight
+borderColor:                    #000000
+bevelWidth:                     0
+borderWidth:                    1
+handleWidth:                    0
+
+rootCommand:			fbsetbg -f ~/.fluxbox/backgrounds/D.jpg
+
+*.font:sans-8
+
+#*font: -artwiz-anorexia-medium-r-*-*-11-110-75-75-*-*-iso8859-2
+#menu.frame.font: -artwiz-glisp-medium-r-*-*-11-110-75-75-*-*-iso8859-2
+#toolbar.clock.font: -artwiz-kates-medium-r-*-*-14-140-75-75-*-*-iso8859-2
+*color:   #728188
+*colorTo: 728188
