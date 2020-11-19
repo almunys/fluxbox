@@ -4,3 +4,5 @@ URxvt*scrollBar: false
 URxvt*saveLines: 12000
 URxvt*foreground: Gray
 URxvt*background: Blue
+URxvt.font:xft:Monospace:pixelsize=12
+URxvt.boldfont:xft:Monospace-Bold:pixelsize=12
