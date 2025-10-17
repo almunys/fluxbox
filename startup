@@ -14,7 +14,11 @@ xmodmap "/home/flooger/.Xmodmap"
 #  tail -f /var/log/emerge-fetch.log &
 # picon &
 # unclutter -idle 2 &
+compton &
 
+pulseaudio &
+
+wmd &
 # wmnd &
 # wmsmixer -w &
 # idesk &
